@@ -21,11 +21,16 @@ body{
 
 li{
     display: inline-block;
+    padding: 0 15px;
 }
 
 a{
     text-decoration: none;
     color: inherit;
+}
+
+button{
+    border: none;
 }
 
 
@@ -45,3 +50,44 @@ a{
     background-color: rgb(216, 163, 98);
     padding: 2rem;
 }
+
+
+/* top bar */
+
+.top_bar{
+    /* min-height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.left-part{
+    display: flex;
+    flex: 0 0 50%;
+    justify-content: left;
+   
+    align-items: center;
+    gap: 50px;
+}
+
+.left-part img{
+    
+}
+
+
+.right-part{
+    display: flex;
+    flex: 0 0 50%;
+    justify-content: right;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.btn-blue{
+    padding: 5px 15px;
+    background-color:#0157ff ;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
