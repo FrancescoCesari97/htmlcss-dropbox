@@ -21,7 +21,7 @@ body{
 
 li{
     display: inline-block;
-    padding: 0 15px;
+    /* padding: 0 15px; */
 }
 
 a{
@@ -43,6 +43,13 @@ button{
 
 }
 
+.container_second{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
 /* debug */
 
 .debug{
@@ -59,6 +66,10 @@ button{
     display: flex;
     justify-content: space-between;
     padding: 30px;
+}
+
+.top_bar li{
+    padding: 0 15px 0 15px;
 }
 
 .left-part{
@@ -143,4 +154,135 @@ button{
 
     position: relative;
     top: 60px;
+}
+
+
+/* <!-- BUISNESS CHE FA PER TE --> */
+
+.second_section{
+    padding: 170px 0 0 0 ;
+}
+
+.second-title{
+    font-size: 2rem;
+
+}
+
+
+.fatturazione{
+    display:flex;
+    gap: 30px;
+    padding:50px 0 ;
+
+}
+
+/* <!--I tre pachetti --> */
+
+.pacchetti{
+
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    max-height: 1100px;
+}
+
+.Professional{
+    width: calc(100%/3 - 40px);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.Advanced{
+    width: calc(100%/3 - 40px);
+    border: 1px solid rgba(0, 0, 0, 0.50);
+
+}
+
+.Enterprise{
+    width: calc(100%/3 - 40px);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+
+}
+
+/* <!-- logo e scritta iniziali --> */
+.logo{
+    border-bottom: 1px  solid rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 5px;
+}
+
+/* main pacchetti  */
+
+.main-professional{
+    padding: 50px 30px;
+    line-height: 2rem;
+}
+
+.title-professional{
+    
+    line-height: 2rem;
+}
+
+.descrizione-pacchetto{
+    padding-top: 30px;
+}
+
+
+.descrizione-pacchetto li{
+    display: block;
+    padding: 10px 0;
+    line-height:1.5rem;
+    
+}
+
+
+
+.descrizione-pacchetto span{
+    color: rgba(0, 0, 0, 0.9);
+}
+
+
+/* .descrizione-pacchetto ul{
+    list-style-image: url(../img/user-solid.svg)
+} */
+
+/* <!-- pulsante prova gratis --> */
+
+.prova-gratis{
+    padding: 30px 0;
+}
+
+.prova-gratis .btn-blue{
+    padding: 10px 20px;
+}
+
+.link-acquista a{
+    text-decoration-style: solid;
+    color:#0157ff;
+
+    text-decoration: underline;
+}
+
+.link-acquista p{
+    display: inline-block;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.20);
+    padding: 0 5px 40px 0;
+}
+
+
+.punti-salienti p{
+    padding-top: 40px;
+    font-weight: 700;
+}
+
+.punti-salienti li{
+    display: block;
+    padding: 10px 0;
+    line-height:1.5rem;
+    
+}
+
+.punti-salienti i{
+    color: #006cff;
 }
