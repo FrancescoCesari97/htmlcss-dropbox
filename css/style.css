@@ -499,7 +499,7 @@ header{
 /* porta dropbox business tua azienda  */
 
 .porta_dropbox_business{
-    min-height: 100px;
+    min-height: 150px;
     background-color:#b4d0e7;
     padding: 20px;
 }
@@ -513,9 +513,9 @@ header{
     flex: 0 0 50%;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
     font-size: 1.8rem;
-    padding: 50px ;
+    padding: 60px 0 ;
     color: #61082b;
 }
 
@@ -529,4 +529,39 @@ header{
 .porta-dropbox-business-link a{
     background-color: antiquewhite;
     padding: 15px 30px;
+}
+
+/* domande frequenti */
+
+.domande_frequenti{
+    margin-bottom: 150px;
+}
+
+.domande-frequenti-main{
+    padding-top: 100px;
+}
+
+.domande-frequenti-main h3{
+    font-size: 2.2rem;
+    padding-bottom: 50px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3495);
+
+}
+
+.domande-frequenti-main p{
+    line-height: 2rem;
+    padding: 20px 0;
+    
+
+}
+
+.domande{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3495);
+}
+
+.domande i{
+    padding-right: 50px;
 }
